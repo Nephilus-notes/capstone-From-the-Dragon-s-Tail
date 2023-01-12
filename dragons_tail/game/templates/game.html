@@ -1,0 +1,15 @@
+{% extends "main/header.html" %}
+
+{% block title %}Dragon's Tail{% endblock title%}
+
+{% block content %}      
+
+{% load crispy_forms_tags %}
+<target=blank></target>
+<!--Login--> 
+<div class="container py-2">
+  <a target="_blank" href="{{ 'game/dragons_tail' }}">Start Game</a>
+    <button class="btn btn-primary" >Login</button>
+</div>
+
+{% endblock %}

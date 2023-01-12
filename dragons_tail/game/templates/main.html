@@ -1,0 +1,24 @@
+{% extends "main/header.html" %}
+{% block title %}Home{% endblock title%}
+{% block content %}
+
+<!-- <h1>Home</h1> -->
+<div class="container">
+    <h2>Hi</h2>
+
+    <p>
+        I'm Charles McCall. </p>
+    <p> I build worlds, whether I'm singing, dancing, or coding.
+    <p> If you want to stay up to date on From the Dragon's Tail feel free to register 
+        <a class='btn btn-dark' href="{% url 'register' %}">Register</a>
+
+    </p>
+    <p> and I'll send you an email when new features come out, like persistent saves.</p>
+    </p>
+    <p>
+        Otherwise just click the play button below and enjoy.
+    </p>
+    <a class='btn btn-dark mb-2' target="_blank" href="{{ 'game/dragons_tail' }}">Start Game</a>
+    <p>P.S. From the Dragon's Tail opens in a new tab.</p>
+</div>
+{% endblock %}
