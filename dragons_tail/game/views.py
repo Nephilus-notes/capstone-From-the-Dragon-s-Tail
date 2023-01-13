@@ -10,7 +10,7 @@ from .forms import NewUserForm
 
 # Create your views here.
 def home(request):
-    return render(request, 'main.html')
+    return render(request, 'index.html')
 
 @login_required
 def profile(request):
